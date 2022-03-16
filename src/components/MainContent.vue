@@ -5,8 +5,12 @@
     <main class="main">
 
         <section>
+            <input class="input-search" type="search" name="" id="">
+        </section>
+
+        <section>
             <div class="container">
-                <AlbumList /> 
+                <AlbumList class="listt" /> 
             </div>
         </section>
 
@@ -39,6 +43,18 @@ import AlbumList from './AlbumList.vue'
     justify-content: center;
     align-items: center;
     padding: 100px 40px;
+    gap: 80px;
+}
+
+.input-search {
+    padding: 5px 80px;
+    box-shadow: 0px 0px 10px #1AD760;
+    border: none;
+    border-radius: 5px;
+}
+
+.listt {
+    cursor: pointer;
 }
 
 </style>

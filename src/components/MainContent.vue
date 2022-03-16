@@ -4,7 +4,11 @@
 <template>
     <main class="main">
 
-        contenuto 
+        <section>
+            <div class="container">
+                <AlbumList /> 
+            </div>
+        </section>
 
     </main>
 </template>
@@ -13,8 +17,12 @@
 // JS
 
 <script>
+import AlbumList from './AlbumList.vue'
+
     export default {
-        
+        components: {
+            AlbumList,
+        }
     }
 </script>
 
@@ -30,6 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 100px 40px;
 }
 
 </style>

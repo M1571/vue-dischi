@@ -26,8 +26,8 @@
 <style lang="scss" scoped>
 
 .header {
-    padding: 5px 15px;
-    background-color: rgba(white, 0.1);
+    padding: 10px 15px;
+    background-color: rgba(white, 0.07);
     position: fixed;
     top: 0;
     left: 0;
